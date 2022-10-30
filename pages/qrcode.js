@@ -1,6 +1,7 @@
 $(document).ready(function () {
   setTimeout(() => {
-    new QRCode(document.querySelector(".qrcode"), {
+    const el = document.querySelector(".qrcode");
+    el && new QRCode(el, {
       text: window.location.href,
       width: 130,
       height: 130,
@@ -8,5 +9,5 @@ $(document).ready(function () {
       colorLight: "#fff",
       correctLevel: QRCode.CorrectLevel.H,
     });
-  }, 100);
+  }, 500);
 });
