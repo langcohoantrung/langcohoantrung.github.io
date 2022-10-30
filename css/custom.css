@@ -1,0 +1,4 @@
+@media screen and (min-width:1200px){.container{width:1120px}}@media screen and (max-width:767px){.single-content img{width:100%!important;height:auto!important}.single-content{overflow:hidden}.single-content table{width:100%!important}}.wrapper{padding:0 5px}.single-content img{max-width:100%;height:auto}.top-bar{padding-top:10px}.block_item{position:relative;width:740px;height:280px}.block_item img{position:absolute;display:block;top:0;left:0}.block_item .item-title{display:none;position:absolute;bottom:15px;padding:3px 30px 3px 15px;right:0;color:#fff;font-size:16px}.block_item:hover .item-title{display:block}#dinh-kem{font-size:20px}
+.fa .fa-caret-down {
+	margin-left: 5px !important;
+}

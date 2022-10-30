@@ -1,0 +1,23 @@
+{
+    "name": "langcohoantrung",
+    "version": "0.0.1",
+    "description": "langcohoantrung",
+    "homepage": "https://langcohoantrung.github.io",
+    "dependencies": {
+      "express": "*"
+    },
+    "engine": "node >=0.6.x",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "main": "server.js",
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "author": "DaiDH",
+    "license": "MIT",
+    "bugs": {
+      "url": ""
+    }
+}
