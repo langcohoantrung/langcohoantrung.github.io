@@ -1,9 +1,11 @@
 $(document).ready(function() {
     // // Audio youtube 
-    let player;
+    var player;
 
     $.getScript("https://www.youtube.com/iframe_api", function() {
-        loadVideo();
+        if (window.location.href === 'https://langcohoantrung.github.io/') {
+            loadVideo();
+        }
     });
 
     function loadVideo() {
